@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Js-bin</title>
+		<link rel="stylesheet" type="text/css" href="js-bin.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">CodePlayer</div>
+			<div id="buttonContainer">
+				<div class="toggleButton active" id="html">HTML</div>
+				<div class="toggleButton" id="css">CSS</div>
+				<div class="toggleButton" id="JavaScript">JavaScript</div>
+				<div class="toggleButton active" id="Output">Output</div>
+			</div>
+		</div>
+		
+		<textarea  class="panel" id="htmlpanel"><p id="1">Hello world!</p></textarea>
+		<textarea  class="panel hidden"  id="csspanel">*{color:blue;}</textarea>
+		<textarea  class="panel hidden" id="JavaScriptpanel">document.getElementById("1").innerHTML="Here is javascripts:"</textarea>
+		<iframe  class="panel" id="Outputpanel"></iframe>
+		<script src="js-bin.js"></script>
+	</body>
+</html>
