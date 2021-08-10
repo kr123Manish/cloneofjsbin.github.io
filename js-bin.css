@@ -40,6 +40,7 @@ body{
 }
 .highlightcolor{
 	background-color: pink;
+	cursor: pointer;
 }
 textarea{
 	resize: none;
